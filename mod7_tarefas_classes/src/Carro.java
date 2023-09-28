@@ -1,10 +1,10 @@
 // Esta é a classe Carro, que representa um objeto do mundo real.
 public class Carro {
     // Propriedades do carro
-    private String marca;
-    private String modelo;
-    private int ano;
-    private String cor;
+    private final String marca;
+    private final String modelo;
+    private final int ano;
+    private final String cor;
     private boolean motorLigado;
 
     // Construtor para inicializar as propriedades do carro
